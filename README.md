@@ -1,4 +1,6 @@
 # Atividade_python
+
+```python
 import os
 import platform
 
@@ -17,10 +19,10 @@ def verifica(v_arquivo):
         print(conteudo)
 
     with open(v_arquivo, 'r') as arquivo:
-      linhas = arquivo.readlines()
-      num_linhas = len(linhas)
-      print(f"Quantidade de linhas no arquivo: {num_linhas}")
+        linhas = arquivo.readlines()
+        num_linhas = len(linhas)
+        print(f"Quantidade de linhas no arquivo: {num_linhas}")
       
-
+# Exemplo de uso
 arquivo = 'teste.csv'  
 verifica(arquivo)
